@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans & display=swap');
+
+body{
+    background-color: white;
+    font-family: open Sans;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* MENU */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__list{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar__item{
+    display: inline-block;
+}
+.navlink{
+    color: #676262;
+    display: inline-block;
+    padding: 16px;
+}
+.active{
+    color: black;
+}
+.navlink:hover{
+    color: black;
+    font-weight: 600;
+}
+
+
+/* HOLA! */
+.article{
+    margin-left: 175px;
+    margin-top: 150px;
+}
+
+/* imagen-portada-portfolio */
+
+img{
+    width: 100%;
+    height: 600px;
+    right: 0;
+    left: 0px;
+    top: 120px;
+}
+
+p{
+    text-align: justify;
+}
+
+/* Macarena Moreno */
+
+.MACARENA__MORENO{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 80px;
+}
+
+
+main{
+    min-height: 100vh;
+}
+
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 2.5rem;
+}
+footer p {
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Hola, soy Macarena */
+
+.article2{
+    text-align: center;
+    margin-top: 150px
+}
+
+
+/* Me considero una persona curiosa y proactiva, me gustan los desafios y el trabajo en equipo, ¿Mi objetivo? Me gustaría tener la oportunidad de desarrollar mis aptitudes profesionales, y contribuir al éxito de cada proyecto en el que incursione. */
+
+.articleText2{
+    display: block;
+    margin-right: 240px;
+    margin-left: 240px;
+    text-align: justify;
+    line-height: 1.8em;
+}
+
+/* FORMULARIO */
+
+form{
+    width: 560px;
+    padding: right 80px;;
+}
+
+
+/* button */
+
+.submitButton{
+    width: 109px;
+    padding: 8px 16px;
+    margin-top: 16px;
+    background-color: white;
+    border-radius: 100px;
+    display: block;
+    color: black;
+}
+
+.Ponete__contacto{
+    width: 394;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
